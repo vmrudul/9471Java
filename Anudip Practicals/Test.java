@@ -1,15 +1,18 @@
-abstract class Parent{
-public abstract void display();
-public void display(){
-System.out.println("In Display1");}}
-class Child extends Parent{
+class EncapsulationDemo{
+private int i;
+public  int geti(){
+return i;
 
-public void display(){
-System.out.println("In Child");}
 }
+public void seti(int newvalue){
+i=newvalue;}}
 
 class Test{
-public static void main(String args[]){
-Child c=new Child();
-c.display();
+public static void main(String args[])
+{
+EncapsulationDemo obj=new EncapsulationDemo();
+obj.seti(156);
+System.out.println("i value" +obj.geti());
 }}
+
+
