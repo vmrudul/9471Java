@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class pr1 {
+public class Ex1 {
 public static void main(String a[]) {
 	String str1 = "Welcome";
 	char[] arr = {'f', 'o', 'r'};
